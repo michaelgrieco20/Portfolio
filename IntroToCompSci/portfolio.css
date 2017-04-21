@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+.nav {
+    background-color: blue;
+    height: 75px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 150px;
+    z-index: 999;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+}
+
+.nav > ul > li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: inline;
+    color: white;
+    line-spacing: 0.75;
+}
+
+a:visited, a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.content {
+    margin-top: 160px;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 20px;
+	background: rgba(165, 165, 165, .75);
+	padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+	padding: 10px;
+}
+
+footer {
+    font-family: Times New Roman;
+    font-size: 12px;
+}
+
+.baseball { color: rgb(255, 10, 10); }
+.baseball h1, .hockey h1, .coding h1 { font-size: 45px; }
+.coding { color: rgb(10, 10, 255); }
+
+hr {
+	border-style: inset;
+    border-width: 1px;
+	color: rgb(255, 0, 0);
+}
+.hockey { color: rgb(10, 255, 10); }
